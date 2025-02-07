@@ -3291,9 +3291,9 @@ public class DialogsActivity extends BaseFragment implements NotificationCenter.
                 statusDrawable = new AnimatedEmojiDrawable.SwapAnimatedEmojiDrawable(null, dp(26));
                 statusDrawable.center = true;
                 if (BuildVars.DEBUG_VERSION) {
-                    actionBar.setTitle(getString(R.string.AppNameBeta), statusDrawable);
+                    actionBar.setTitle("GOmessenger", statusDrawable);
                 } else {
-                    actionBar.setTitle(getString(R.string.AppName), statusDrawable);
+                    actionBar.setTitle("GOmessenger", statusDrawable);
                 }
                 updateStatus(UserConfig.getInstance(currentAccount).getCurrentUser(), false);
             }

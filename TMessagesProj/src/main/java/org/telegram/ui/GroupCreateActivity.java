@@ -865,7 +865,7 @@ public class GroupCreateActivity extends BaseFragment implements NotificationCen
                     }
                     if (chatType == ChatObject.CHAT_TYPE_CHAT && selectedContacts.size() == getMessagesController().maxGroupCount) {
                         AlertDialog.Builder builder = new AlertDialog.Builder(getParentActivity());
-                        builder.setTitle(LocaleController.getString(R.string.AppName));
+                        builder.setTitle("GOmessenger");
                         builder.setMessage(LocaleController.getString(R.string.SoftUserLimitAlert));
                         builder.setPositiveButton(LocaleController.getString(R.string.OK), null);
                         showDialog(builder.create());

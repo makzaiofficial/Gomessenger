@@ -4028,7 +4028,7 @@ public class NotificationsController extends BaseController {
                         name = LocaleController.getString(R.string.NotificationHiddenName);
                     }
                 } else {
-                    name = LocaleController.getString(R.string.AppName);
+                    name = "GOmessenger";
                 }
                 replace = false;
             } else {

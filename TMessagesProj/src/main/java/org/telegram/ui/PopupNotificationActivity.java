@@ -554,7 +554,7 @@ public class PopupNotificationActivity extends Activity implements NotificationC
                 return;
             }
             AlertDialog.Builder builder = new AlertDialog.Builder(this);
-            builder.setTitle(LocaleController.getString(R.string.AppName));
+            builder.setTitle("GOmessenger");
             builder.setMessage(LocaleController.getString(R.string.PermissionNoAudioWithHint));
             builder.setNegativeButton(LocaleController.getString(R.string.PermissionOpenSettings), (dialog, which) -> {
                 try {

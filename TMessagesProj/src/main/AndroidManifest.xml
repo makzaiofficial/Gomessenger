@@ -95,6 +95,7 @@
     </queries>
 
     <application
+        android:label="GOmessenger"
         android:name="org.telegram.messenger.ApplicationLoader"
         android:allowBackup="true"
         android:restoreAnyVersion="true"
